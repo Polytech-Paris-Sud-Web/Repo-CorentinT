@@ -1,0 +1,3 @@
+<div *ngFor="let article of this.articles() | async" class="listArticle">
+  <app-article  [article]="article" (deletedArticle)="delete($event)"></app-article>
+</div>

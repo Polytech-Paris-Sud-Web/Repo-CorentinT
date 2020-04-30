@@ -1,0 +1,16 @@
+#navigation{
+    display: flex;
+    justify-content: space-around;
+    height: 75px;
+    padding: 10px;
+    background-color: darkgrey;
+    margin-bottom: 15px;
+}
+
+#navigation div{
+    width: 100%;
+    text-align:center;
+}
+
+#path_to_creation{
+}
