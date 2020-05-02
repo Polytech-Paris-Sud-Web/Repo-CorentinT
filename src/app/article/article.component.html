@@ -1,6 +1,10 @@
 <div class="onearticle" >
-  <h3> {{this.article.title}} </h3>
+  <div class="article_entete"> 
+    <h3> > {{this.article.title}} </h3>
+    <button (click)="delete()" class="btn btn-danger">Delete</button>
+  </div>
+  
   <p class="lead"> {{this.article.content}} </p>
-  <blockquote>Written by {{this.article.authors}}</blockquote>
-  <button (click)="delete()">Delete</button>
+  <blockquote> ~ Written by {{this.article.authors}}</blockquote>
+
 </div>

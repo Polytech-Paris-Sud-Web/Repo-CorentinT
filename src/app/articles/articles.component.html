@@ -1,3 +1,15 @@
-<div *ngFor="let article of this.articles() | async" class="listArticle">
-  <app-article  [article]="article" (deletedArticle)="delete($event)"></app-article>
+<form [formGroup]="searchForm" (ngSubmit)="onChanges()">
+  <div class="form-group" id="searchMenu">
+    <label class="center-block">Look for : </label>
+    <input class="form-control" id="searchBar" type="text" placeholder="Search" aria-label="Search" formControlName="search">
 </div>
+</form> 
+
+<hr>
+
+<div class="listArticle">
+  <div *ngFor="let article of _articles">
+    <app-article [article]="article" (deletedArticle)="delete($event)"></app-article>
+  </div>
+</div>
+

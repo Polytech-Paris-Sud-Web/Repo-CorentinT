@@ -1,0 +1,28 @@
+#creationMenu{
+    text-align: center;
+    background-color: #D8D8D8;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#creationMenu #enteteCreation{
+    display: flex;
+    justify-content: center;
+}
+
+#creationMenu label{
+    margin: 15px;
+    color:rgb(0, 101, 69);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#enteteCreation input{
+    width: 250px;
+}
+
+#creationMenu textarea{
+    width: 600px;
+    height: 600px;
+}

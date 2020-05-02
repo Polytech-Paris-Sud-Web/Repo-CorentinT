@@ -15,8 +15,8 @@ export class ArticleService {
     return this.http.get<Article[]>("http://localhost:3000/articles");
   }
 
-  public delete(id:number): Observable<any> {
-    return this.http.delete<any>(`http://localhost:3000/articles/${id}`);
+  public delete(id:number): Observable<void> {
+    return this.http.delete<void>(`http://localhost:3000/articles/${id}`);
   }
 
   public addArticle(article:Article) : Observable<Article>{

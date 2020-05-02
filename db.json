@@ -7,12 +7,6 @@
       "authors": "Orangefire"
     },
     {
-      "title": "Fake Titletest",
-      "content": "testst",
-      "authors": "aetaetae",
-      "id": 5
-    },
-    {
       "title": "Test Route",
       "content": "1234",
       "authors": "1111",
@@ -29,6 +23,12 @@
       "content": "Super test de la migration 8 ver s9.",
       "authors": "e",
       "id": 11
+    },
+    {
+      "title": "Test Modal",
+      "content": "C'est un test modal !",
+      "authors": "Moi",
+      "id": 12
     }
   ]
 }

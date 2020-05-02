@@ -1,19 +1,30 @@
-<h2>Article</h2>
-<h3><i>Create your article</i></h3>
-<form [formGroup]="articleForm" (ngSubmit)="createArticle()">
-  <div class="form-group">
-    <label class="center-block">title:
-      <input class="form-control" formControlName="title">
-    </label>
-    <br />
-    <label class="center-block">content:
-      <textarea class="form-control" formControlName="content"></textarea>
-    </label>
-    <br />
-    <label class="center-block">authors:
-      <input class="form-control" formControlName="authors">
-    </label>
-    <br />
-    <button class="btn btn-success" [disabled]="articleForm.invalid" type="submit">Save</button>
-  </div>
-</form>
+<div id="creationMenu">
+  <h2>Article</h2>
+  <h3><i>Create your article</i></h3>
+  <hr>
+
+  <form [formGroup]="articleForm" (ngSubmit)="createArticle()">
+    <div class="form-group">
+        <div id="enteteCreation">
+          <label class="center-block"> > Title < 
+              <input class="form-control" formControlName="title" placeholder="Article title...">
+          </label>
+          
+          <label class="center-block"> > By <
+            <input class="form-control" formControlName="authors" placeholder="Authors...">
+          </label>
+        </div>
+        
+
+      <br />
+      <label class="center-block"> > Content <
+        <textarea class="form-control" formControlName="content" placeholder="Article content...."></textarea>
+      </label>
+      <br />
+
+      <br />
+      <hr>
+      <button class="btn btn-success" [disabled]="articleForm.invalid" type="submit">Post</button>
+    </div>
+  </form>
+</div>
