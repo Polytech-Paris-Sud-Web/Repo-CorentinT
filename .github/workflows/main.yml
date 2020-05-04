@@ -13,6 +13,6 @@ jobs:
     - name: Angular Deploy gh-pages Actions
       uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.2.0
       with:
-        github_access_token: ${{ secrets.ACCESS_TOKEN }}
+        github_access_token: ${{ secrets.ACCES_TOKEN }}
         build_folder: dist/simple-app
         base_href: /Repo-CorentinT/
