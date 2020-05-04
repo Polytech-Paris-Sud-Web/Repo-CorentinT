@@ -1,6 +1,5 @@
-# SimpleApp
+# SimpleApp ~ Corentin TROADEC
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.0.
 
 ## Development server
 
@@ -14,14 +13,10 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-## Running unit tests
+## Intérêt de la migration pour la suite du cours
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Dans la suite des cours il est possible que de nouvelles features, ou bien de nouvelles méthodes, soient utilisées. 
+Par exemple, la migration a demandé plusieurs fois à ce que les modules liés au TypeScript soient mise à jour, ce qui est un élément central du projet. 
+Le Web étant très changeant, faire la migration nous permet de pouvoir être à la page, prêt à utiliser les outils du Framework au maximal.
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Des modules ont également été "deprecated" dans les anciennes versions et il convient de les mettre à jour ou de les remplacer pour pallier les problèmes de sécurité. La migration est un moyen de fixe ce genre de problème dans certains cas.
